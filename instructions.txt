@@ -1,0 +1,18 @@
+1. STARTING BACKEND
+
+
+A. Create backend and frontend folders by way of the terminal
+
+B. Create the 'package.json' file
+
+C. Install required packages in the root directory
+
+D. Configure entry point to application in 'package.json'
+
+E. Enable ES6 modules
+
+F. Create Express application, and having it start listening over a PORT.
+
+G. Create script to run app automatically after every save.
+
+H. Create a basic GET request to the root route sending something to the browser
