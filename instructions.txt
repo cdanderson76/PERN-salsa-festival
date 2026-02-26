@@ -1,0 +1,13 @@
+2. MIDDLEWARES AND DOTENV
+
+
+A. Implement helmet middleware
+
+B. Implement morgan middleware to log the requests
+
+C. Implement the parsing of incoming JSON data
+
+D. Enable the backend to connect to the impending frontend of application with CORS
+
+E. Set up environment variables (be sure to backup the port number in case it is
+   undefined.
