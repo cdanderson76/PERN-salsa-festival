@@ -1,5 +1,4 @@
 import express from 'express';
-import helmet from 'helmet';
 
 const app = express();
 const PORT = 5000;
