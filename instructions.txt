@@ -1,0 +1,24 @@
+3. FILE STRUCTURE
+
+
+A. Set the 'GET' request in 'server.js' to match up with API properly
+
+B. Create route to get all products from database (replace 'res.send')
+
+C. Create 'backend/routes' and 'backend/controllers' folders
+
+D. Create 'backend/productRoutes.js' and initiate Express routing, export the 
+   Express router, and import it through 'server.js'
+
+E. Create a 'test' route and ensure you can connect to the route. Ensure the 'GET'
+   method is changed to 'use' in 'server.js'
+
+F. Create 'controllers/productController.js' where all route functions will be
+   placed
+
+G. Create TWO BLANK ASYNC functions in '/controllers/productController.js'.  One 
+   that will get all products, and one that will create products.
+
+
+NOTE: WHAT METHODS WILL WE USE FOR THE REQUESTS?  THESE FUNCTIONS ARE BLANK BECAUSE
+      WE CURRENTLY HAVE NO DATABASE TO CONNECT TO.
