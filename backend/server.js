@@ -1,0 +1,13 @@
+import express from 'express';
+import helmet from 'helmet';
+
+const app = express();
+const PORT = 5000;
+
+app.get('/', (req, res) => {
+  res.send(`Your app is running fine`);
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is listening on http://localhost:${PORT}`);
+});
