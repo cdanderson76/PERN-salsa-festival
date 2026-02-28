@@ -1,0 +1,25 @@
+5.  CONTROLLERS
+
+
+A. Add the following routes: edit, delete, get (1 product).
+
+B. Add the controllers for each route into 'productController.js':
+
+   NOTE: THESE WILL BE BLANK FOR NOW 
+
+C. Configure the 'getProducts' route with a 'try/catch'
+   
+   NOTE: WHEN YOU ADD THE 'getProducts' route, YOU CAN TEST THE ROUTE IN THE BROWSER.
+         IT SHOULD YIELD THE FOLLOWING SYNTAX IF DONE CORRECTLY:
+
+         {"success":true,"data":[]}
+
+D. Configure the 'createProduct' route with a 'try/catch'
+
+E. Configure the 'getProduct' route with a 'try/catch'
+
+F. Configure the 'updateProduct' route with a 'try/catch'
+
+G. Configure the 'deleteProduct' route with a 'try/catch'
+
+H. Test all routes in Postman.
