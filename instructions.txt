@@ -1,0 +1,30 @@
+4.  POSTGRES SQL DATABASE
+
+
+A. Refer to your thumb drive to create a Postgres SQL connection string
+
+B. Refer to your thumb drive to create an Arcjet connection string.
+
+C. Create '/backend/config/db.js', and configure it to connect to the Postgres
+   SQL
+
+D. Go into 'server.js' and create a 'try/catch' function that will log an error
+   to the console if it is unsuccessful.
+
+   If it is successful, and if it doesn't exist, create a table called 'products'
+   with the following makeup:
+
+   -PRIMARY KEY
+   -name of product
+   -image
+   -price (can have 10 digits for whole number, and 2 decimal places)
+   -have timestamps created upon creation
+   -log 'Database initialized successfully' at the end of the 'try' function
+
+E. initialize the database, and once it is ready, run a callback function where we
+   are listening to our app.
+
+
+NOTE: WHEN FINISHED SUCCESSFULLY, YOU SHOULD NOW SEE A MAKEUP OF THIS DATABASE IN THE
+      NEON SITE CONSOLE.  ALSO, THE 'updatedAt' FIELD WILL NOT SHOW AT THIS POINT
+      SOMETHING ELSE WILL NEED TO BE DONE TO SEE THIS.
